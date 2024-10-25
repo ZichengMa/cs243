@@ -28,6 +28,6 @@ ${ASTRA_SIM} \
     --system-configuration=${SCRIPT_DIR}/inputs/Ring_sys.json \
     --remote-memory-configuration=${SCRIPT_DIR}/inputs/RemoteMemory.json \
     --logical-topology-configuration=${SCRIPT_DIR}/inputs/logical_128nodes_1D.json \
-    --network-configuration=../../../ns-3/scratch/config/config_128_nodes_16_switch_topology.txt \
+    --network-configuration=../../../ns-3/scratch/config/config_clos.txt \
     --comm-group-configuration=\"empty\"
 )

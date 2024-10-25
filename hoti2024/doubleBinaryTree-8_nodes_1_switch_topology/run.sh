@@ -25,9 +25,9 @@ ASTRA_SIM=./ns3.42-AstraSimNetwork-default
 cd ${ASTRA_SIM_BUILD_DIR}
 ${ASTRA_SIM} \
     --workload-configuration=${SCRIPT_DIR}/../demo1/allreduce/allreduce \
-    --system-configuration=${SCRIPT_DIR}/inputs/halvingDoubling_sys.json \
+    --system-configuration=${SCRIPT_DIR}/inputs/doubleBinaryTree_sys.json \
     --remote-memory-configuration=${SCRIPT_DIR}/inputs/RemoteMemory.json \
     --logical-topology-configuration=${SCRIPT_DIR}/inputs/logical_8nodes_1D.json \
-    --network-configuration=../../../ns-3/scratch/config/config_8nodes_ring_topology.txt \
+    --network-configuration=../../../ns-3/scratch/config/config_8_nodes_1_switch_topology.txt \
     --comm-group-configuration=\"empty\"
 )

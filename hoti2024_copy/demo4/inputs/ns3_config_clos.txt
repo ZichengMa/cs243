@@ -1,0 +1,1 @@
+/app/hoti2024/astra-sim/extern/network_backend/ns-3/scratch/config/config_clos.txt

@@ -1,11 +1,4 @@
-# ASTRA-sim
-astra-sim/
 
-# ASTRA-sim build
-build/
-
-# Symlink
-chakra
 
 # Demo 1
 demo1/allreduce

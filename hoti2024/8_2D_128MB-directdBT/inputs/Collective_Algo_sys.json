@@ -1,0 +1,13 @@
+{
+    "scheduling-policy": "LIFO",
+    "endpoint-delay": 10,
+    "active-chunks-per-dimension": 1,
+    "preferred-dataset-splits": 1,
+    "all-reduce-implementation": ["direct", "doubleBinaryTree"],
+    "all-gather-implementation": ["direct", "doubleBinaryTree"],
+    "reduce-scatter-implementation": ["direct", "doubleBinaryTree"],
+    "all-to-all-implementation": ["direct", "doubleBinaryTree"],
+    "collective-optimization": "localBWAware",
+    "local-mem-bw": 50,
+    "boost-mode": 0
+}

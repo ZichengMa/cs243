@@ -19,7 +19,7 @@ def main() -> None:
 
     # metadata
     npus_count = 512  # 1024 NPUs
-    coll_size = 268_435_456  # 256 MB
+    coll_size = 1_048_576  # 1 MB
 
     for npu_id in range(npus_count):
         output_filename = f"allreduce_512/allreduce.{npu_id}.et"

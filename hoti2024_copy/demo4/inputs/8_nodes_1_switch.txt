@@ -1,1 +1,0 @@
-/app/hoti2024/astra-sim/extern/network_backend/ns-3/scratch/topology/8_nodes_1_switch_topology.txt

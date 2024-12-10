@@ -1,7 +1,12 @@
 from matplotlib import pyplot as plt
+import sys
 # Define constants
 TIME_INCREMENT = 10  # nanoseconds
 FILENAME = 'astra-sim/extern/network_backend/ns-3/scratch/output/fct.txt'
+
+# parse 1st argument as the figure's label name
+figure_name = sys.argv[1]
+
 
 # Initialize queue and variables
 queue = []
@@ -58,7 +63,10 @@ plt.plot(time_series, queue_length_over_time, label='Queue Length')
 plt.xlabel("Time (ns)")
 plt.ylabel("Queue length in bytes")
 
+# Set the title of the plot
+plt.title(f"Queue Length Over Time for {figure_name}")
+
 plt.legend()
 
 # Save the plot
-plt.savefig('queue_length_over_time.png')
+plt.savefig("queue_length_over_time.png", transparent=True)

@@ -210,3 +210,12 @@ sys[3] finished, 5370424 cycles
 sys[1] finished, 5592636 cycles
 sys[5] finished, 5592652 cycles
 ```
+
+# 4. Change Congestion Control Algorithm
+
+The config files about ns-3 are stored in 'astra-network-ns3/scratch/config'. Find the config you are using and modify 'CC_MODE'.
+
+'''
+CC_MODE 3 {Specifying different CC. 1: DCQCN, 3: HPCC, 7: TIMELY, 8: DCTCP, 10: HPCC-PINT, 12: None}
+'''
+

@@ -1,3 +1,4 @@
+This is the Github repository for 2024 Fall CS243 Final Project: Comparing Collective Communication Algorithms in ASTRA-sim and NS-3
 
 # 1. ASTRA-Sim Setup
 
